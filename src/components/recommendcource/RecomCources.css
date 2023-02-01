@@ -1,0 +1,67 @@
+body{
+    overflow-x: hidden;
+  }
+.cources-content{
+    background-color: hsl(204deg 66% 60%);
+    width: 100%;
+    margin-top: 10vh;
+   margin-bottom: 4vh;
+   padding-bottom: .5vh;
+}
+.cources-text{
+    font-family: 'Al_Mushaf';
+    font-size: 22px;
+    padding-top: 0.5rem;
+    color: #fff;
+    text-align: center;
+}
+#cources-heading{
+    font-size: 34px;
+}
+.card {
+    /* height: 420px; */
+    margin-top: 4vh;
+    width: 18rem;
+    margin-left: 8vw;
+    margin-bottom: 4vh;
+}
+
+.cource-des{
+    color: gray;
+}
+.cource-title{
+    font-size: 20px;
+}
+.img-height{
+    height: 220px;
+}
+@media screen and (max-width: 1200px){
+    .card {
+        /* height: 350px; */
+        margin-top: 4vh;
+        width: 14rem;
+        margin-right: 6vw;
+        margin-bottom: 4vh;
+    }
+    .cource-title{
+        font-size: 18px;
+    }
+    .cource-des{
+        font-size: 14px;
+        color: gray;
+    }
+}
+@media screen and (max-width: 765px){
+    .card {
+        /* height: 350px; */
+        margin-top: 4vh;
+        width: 18rem;
+        margin-left: 9vw;
+        margin-bottom: 4vh;
+    }
+}
+@media screen and (max-width: 980px){
+    #cources-heading{
+        font-size: 22px;
+    }
+}

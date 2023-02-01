@@ -1,0 +1,74 @@
+body{
+    overflow-x: hidden;
+  }
+.contact-content{
+    background-color: hsl(204deg 66% 60%);
+    width: 100%;
+    margin-top: 10vh;
+   margin-bottom: 4vh;
+   padding-bottom: .5vh;
+}
+.contact-text{
+    font-family: 'Al_Mushaf';
+    font-size: 22px;
+    padding-top: 0.5rem;
+    color: #fff;
+    text-align: center;
+}
+#contact-heading{
+    font-size: 34px;
+}
+.form-cont{
+   margin-left: 25vw;
+   margin-top: 8vh;
+}
+.inputs{
+    width: 400px;
+}
+#messesge-text{
+    height: 100px;
+}
+
+@media screen and (max-width:1276px) {
+    .form-cont{
+        margin-left: 14vw;
+        margin-top: 8vh;
+     }
+}
+@media screen and (max-width:971px) {
+    .form-cont{
+        margin-left: 10vw;
+        margin-top: 8vh;
+     }
+     .inputs{
+        width: 450px;
+    }
+    #messesge-text{
+        width: 450px;
+    }
+}
+
+@media screen and (max-width:780px) {
+    .form-cont{
+        margin-left: 4vw;
+        margin-top: 8vh;
+     }
+     .inputs{
+        width: 400px;
+    }
+    #messesge-text{
+        width: 400px;
+    }
+}
+@media screen and (max-width:650px) {
+    .form-cont{
+        margin-left: 1.5vw;
+        margin-top: 8vh;
+     }
+     .inputs{
+        width: 95%;
+    }
+    #messesge-text{
+        width: 95%;
+    }
+}

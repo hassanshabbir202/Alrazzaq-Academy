@@ -1,0 +1,33 @@
+.khatme-content{
+    background-color: hsl(204deg 66% 60%);
+    width: 100%;
+    margin-top: 10vh;
+   margin-bottom: 4vh;
+   padding-bottom: .5vh;
+}
+.khatme-text{
+    font-family: 'Al_Mushaf';
+    font-size: 22px;
+    padding-top: 0.5rem;
+    color: #fff;
+    text-align: center;
+}
+#khatme-heading{
+    font-size: 34px;
+}
+.img-c{
+    width: 100%;
+    height: 400px;
+}
+.text-c{
+    font-size: 14px;
+}
+@media screen and (max-width:400px) {
+    .img-c{
+        height: 250px;
+        width: 100%;
+    }
+    .text-c{
+        font-size: 12px;
+    }
+}

@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    overflow-x: hidden;
+}
+.header-content{
+    margin-top: 10vh;
+    display: flex;
+    justify-content: center;
+    background-color: hsl(204deg 66% 60%);
+    height: 45px;
+    width: 100%;
+}
+.header-text{
+    font-family: 'Al_Mushaf';
+    font-size: 22px;
+    padding-top: 0.5rem;
+    color: #fff;
+}
+@media screen and (max-width: 950px) {
+    .header-text{
+        font-size: 19px;
+    }
+}
+@media screen and (max-width: 700px) {
+    .header-text{
+        font-size: 17px;
+        font-weight: 600;
+    }
+}
+@media screen and (max-width: 520px) {
+    .header-text{
+        font-size: 14px;
+        font-weight: 500;
+    }
+}
+@media screen and (max-width: 400px) {
+    .header-text{
+        font-size: 12px;
+        font-weight: 400;
+        margin-top: .5vh;
+    }
+    .header-content{
+        margin-top: 10vh;
+        display: flex;
+        justify-content: center;
+        background-color: hsl(204deg 66% 60%);
+        height: 30px;
+        width: 100%;
+    }
+}

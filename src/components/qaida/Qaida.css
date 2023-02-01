@@ -1,0 +1,33 @@
+.qaida-content{
+    background-color: hsl(204deg 66% 60%);
+    width: 100%;
+    margin-top: 10vh;
+   margin-bottom: 4vh;
+   padding-bottom: .5vh;
+}
+.qaida-text{
+    font-family: 'Al_Mushaf';
+    font-size: 22px;
+    padding-top: 0.5rem;
+    color: #fff;
+    text-align: center;
+}
+#qaida-heading{
+    font-size: 34px;
+}
+.c-img{
+    height: 400px;
+    width: 100%;
+}
+.text-c{
+    font-size: 14px;
+}
+@media screen and (max-width:400px) {
+    .c-img{
+        height: 250px;
+        width: 100%;
+    }
+    .text-c{
+        font-size: 12px;
+    }
+}

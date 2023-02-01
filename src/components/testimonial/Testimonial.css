@@ -1,0 +1,67 @@
+body{
+    overflow-x: hidden;
+  }
+.testimonial-content{
+    background-color: hsl(204deg 66% 60%);
+    width: 100%;
+   margin-top: 10vh;
+   margin-bottom: 4vh;
+   padding-bottom: .5vh;
+}
+.testimonial-text{
+    font-family: 'Al_Mushaf';
+    font-size: 22px;
+    padding-top: .5rem;
+    color: #fff;
+    text-align: center;
+}
+#testimonial-heading{
+    font-size: 34px;
+}
+.testimonial-cont{
+    display: flex;
+    justify-content: center;
+    color: gray;
+    font-size: 16px;
+}
+.testimon-text{
+    margin-top: 8vh;
+}
+@media screen and (max-width: 980px){
+    .testimonial-cont{
+        font-size: 13px;
+    }
+    .testimon-text{
+        margin-top: 7vh;
+    }
+    #testimonial-heading{
+        font-size: 15px;
+    }
+}
+@media screen and (max-width: 795px){
+    .testimonial-cont{
+        font-size: 10px;
+    }
+}
+
+@media screen and (max-width: 480px){
+    .testimonial-cont{
+        font-size: 8px;
+    }
+    #testimonial-heading{
+        font-size: 15px;
+    }
+}
+@media screen and (max-width: 390px){
+    #testimonial-heading{
+        font-size: 25px;
+    }
+}
+@media screen and (max-width: 380px){
+    #testimonial-heading{
+        font-size: 25px;
+    }
+    .testimonial-cont{
+        font-size: 6px;
+    }
+}
